@@ -364,7 +364,7 @@ jQuery.noConflict();
             //     value: data.body.content ? data.body.content : data.bodyPreview
             // };
             kintoneRecord[CONTENT_FIELD_CODE] = {
-                value: data.body.content ? data.body.content : data.bodyPreview
+                value: data.body.content ? outlookAPI.removeStyleTagOnString(data.body.content) : data.bodyPreview
             };
 
             // messageId
@@ -517,6 +517,10 @@ jQuery.noConflict();
             }
             return window.btoa(binary);
         },
+        removeStyleTagOnString: function(text) {
+            return text.replace(/<style.*style>|<style.*[[\s\S\t]*?.*style>/mg, '');
+        },
+
         sendMailInit: function(kinRec) {
             var self = this;
             // Confirm whether to execute
