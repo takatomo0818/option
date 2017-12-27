@@ -78,7 +78,7 @@ window.kintoneO365Connect = {
 
 7. Upload CSS File for PC
 * [sweetalert2.min.css](https://js.cybozu.com/sweetalert2/v6.10.1/sweetalert2.min.css)
-* [kintone-o365-connect.css](https://js.cybozu.com/sweetalert2/v6.10.1/sweetalert2.min.css)
+* [kintone-o365-connect.css]([kintone-o365-connect.css)
 
 ## Authentication flow
 ![overview image](img/AuthenticationFlow.png?raw=true)
