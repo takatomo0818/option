@@ -81,7 +81,7 @@ window.kintoneO365Connect = {
 * [kintone-o365-connect.css](https://js.cybozu.com/sweetalert2/v6.10.1/sweetalert2.min.css)
 
 ## Authentication flow
-![overview image](https://github.dev.cybozu.co.jp/SC/kintone-customization-development/blob/master/source/projects/Cybozu/kintone-mail-service_outlook/SSR-53/AuthenticationFlow.png?raw=true)
+![overview image](AuthenticationFlow.png?raw=true)
 
 ## Remarks
 If the following error occurs, please follow the following procedure.
