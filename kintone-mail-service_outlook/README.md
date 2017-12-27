@@ -68,20 +68,20 @@ window.kintoneO365Connect = {
 ```
 
 6. Upload JavaScript for PC
-* [msal.js](./js/common/google/google-api.min.min.js)
+* [msal.js](https://github.com/AzureAD/microsoft-authentication-library-for-js)
 * [jquery.min.js](https://js.cybozu.com/jquery/3.2.1/jquery.min.js)
 * [sweetalert2.min.js](https://js.cybozu.com/sweetalert2/v6.10.1/sweetalert2.min.js)
 * [kintoneUtility.min.js](https://kintone.github.io/kintoneUtility/kintoneUtility.min.js)
-* [common-js-functions.min.js](../../../../common/cybozu/SC-VN/js/common-js-functions.min.js)
-* [kintone-o365-connect_common.js](./js/kintone-connect-mail-service.js)
-* [kintone-o365-connect.js](./js/kintone-connect-mail-service.js)
+* [common-js-functions.min.js](lib/common-js-functions.min.js)
+* [kintone-o365-connect_common.js](kintone-o365-connect_common.js)
+* [kintone-o365-connect.js](kintone-o365-connect.js)
 
 7. Upload CSS File for PC
 * [sweetalert2.min.css](https://js.cybozu.com/sweetalert2/v6.10.1/sweetalert2.min.css)
 * [kintone-o365-connect.css](https://js.cybozu.com/sweetalert2/v6.10.1/sweetalert2.min.css)
 
 ## Authentication flow
-![overview image](AuthenticationFlow.png?raw=true)
+![overview image](img/AuthenticationFlow.png?raw=true)
 
 ## Remarks
 If the following error occurs, please follow the following procedure.
